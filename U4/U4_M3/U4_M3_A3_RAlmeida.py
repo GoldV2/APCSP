@@ -1,6 +1,6 @@
 # File Name: U4_M3_A3_RAlmeida.py
 # Purpose: Iteration and Extension
-# Edited - Revised: 01/04/21
+# Edited - Revised: 03/08/21
 
 from textwrap import dedent
 
@@ -26,7 +26,7 @@ def step(n, name = ''):
 
 step(12, 'Common & Seen')
 
-common_birds = ['Chicken', 'Blue Jay', 'Crow', 'Pigeon']
+common_birds = ['Chicken', 'Owl', 'Crow', 'Pigeon']
 print(common_birds)
 # creating list of seen birds
 seen_birds = ['Toucan']
@@ -90,6 +90,7 @@ print(sorted_cities)
 step(26, 'Add Animals')
 
 animals = ['Chimpanze', 'Panther', "Wolf", 'Armadillo']
+animals += ['Dog']
 
 # initializing variable
 add_animals = []
